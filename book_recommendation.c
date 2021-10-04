@@ -1,3 +1,7 @@
+//Book recommandation system with pearson coefficient//
+//						     //
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -121,7 +125,7 @@ int main(){
 		books[d] = (char*)malloc(50*sizeof(char));//
 	}
 	char username[10];//kullanici adini kullanicidan almak icin
-	int ky;//en yakýn kullanicilarin sayisi(k=1,2,3,4...)
+	int ky;//en yakÄ±n kullanicilarin sayisi(k=1,2,3,4...)
 	printf("Kitap onerisi yapilacak kullanici adi: ");
 	scanf("%s",username);
 	printf("Benzer Kullanici Sayisi(k): ");
@@ -173,7 +177,7 @@ int main(){
 			k++;
 			j++;
 		}
-		if(user[0]=='U'){//u ile baslayanlari sayma, yani ögrenme verisi
+		if(user[0]=='U'){//u ile baslayanlari sayma, yani Ã¶grenme verisi
 			uc++; //u count
 		}else{//nu'lari sayma , test verisi 
 			nc++;// nu count 
