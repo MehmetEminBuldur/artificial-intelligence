@@ -1,6 +1,5 @@
 #Log file analysis application with association rule mining
 
-
 import pandas as pd
 import numpy as np
 from efficient_apriori import apriori
