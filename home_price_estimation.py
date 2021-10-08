@@ -1,6 +1,5 @@
 #Home price estimation app using 10 different features and 5 different estimator models
 
-
 # encoding:utf-8
 import pandas as pd #dataframe için
 import math
