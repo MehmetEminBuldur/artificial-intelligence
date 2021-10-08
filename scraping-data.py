@@ -1,5 +1,6 @@
 #scraping data from website for home price estimation app
 
+
 #Veri kümesinin hazırlandığı kod parçası
 import requests
 from bs4 import BeautifulSoup as bs
